@@ -110,7 +110,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <motion.img
-            src="./src/assets/my-photo.png"
+            src="/my-photo.png"
             alt="profile"
             className="w-auto h-auto rounded-2xl shadow-lg shadow-white"
             whileHover={{ scale: 1.05 }}

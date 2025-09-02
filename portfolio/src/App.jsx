@@ -10,8 +10,8 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <nav className="flex justify-between items-center px-10 py-6">
-        <h1 className="font-bold text-xl">Portfolio</h1>
+      <nav className="flex justify-between items-center px-10 py-6 bg-gradient-to-br from-blue-950 via-black to-blue-900">
+        <a href="/"><h1 className="font-bold text-xl text-white hover:text-yellow-400 cursor-pointer">Portfolio</h1></a>
         <ul className="hidden md:flex space-x-8 text-white/80">
           <a href="/">
             <li className="hover:text-yellow-400 cursor-pointer">Home</li>
