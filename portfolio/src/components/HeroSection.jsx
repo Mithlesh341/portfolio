@@ -56,7 +56,7 @@ export default function HeroSection() {
         <circle cx="100" cy="100" r="80" />
       </motion.svg>
 
-      <div className="grid md:grid-cols-2 gap-10 items-center px-10 py-20 relative z-10">
+      <div className="grid md:grid-cols-2 gap-10 items-center px-10 py-15 relative z-10">
 
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -101,6 +101,16 @@ export default function HeroSection() {
             >
               <FaLinkedin size={35} />
             </a>
+
+        <a href="/about">
+          <button className="bg-yellow-400 text-black px-2 py-2 rounded-full text-sm font-bold shadow-lg hover:bg-yellow-500 cursor-pointer">
+            About Me
+          </button>
+        </a>
+
+
+
+
           </motion.div>
         </motion.div>
 
@@ -130,7 +140,7 @@ export default function HeroSection() {
         </motion.div>
       </div>
 
-      <About />
+      
       <Projects/>
       <SkillsSection />
       <Contact />
