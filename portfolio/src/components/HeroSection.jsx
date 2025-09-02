@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import About from "./About";
 import FooterSection from "./Footer";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Projects from "./Project";
 
 export default function HeroSection() {
   return (
@@ -110,7 +111,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <motion.img
-            src="/my-photo.png"
+            src="/prof.png"
             alt="profile"
             className="w-auto h-auto rounded-2xl shadow-lg shadow-white"
             whileHover={{ scale: 1.05 }}
@@ -130,6 +131,7 @@ export default function HeroSection() {
       </div>
 
       <About />
+      <Projects/>
       <SkillsSection />
       <Contact />
       <FooterSection />

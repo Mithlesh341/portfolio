@@ -48,7 +48,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <motion.img
-            src="/my-photo.png"
+            src="/prof.png"
             alt="profile"
             className="relative w-80 h-auto rounded-2xl shadow-lg z-10"
             whileHover={{ scale: 1.05 }}

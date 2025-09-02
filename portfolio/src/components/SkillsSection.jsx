@@ -85,7 +85,7 @@ export default function SkillsSection() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold text-yellow-400">Skills</h2>
+        <h2 className="text-4xl font-bold text-yellow-400">Technologies</h2>
         <p className="text-white/70 mt-2">
           Here are the technologies I’m working with
         </p>
