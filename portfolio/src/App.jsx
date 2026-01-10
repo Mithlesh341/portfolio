@@ -27,7 +27,7 @@ function App() {
             <li className="hover:text-yellow-400 cursor-pointer">Contact</li>
           </a>
         </ul>
-        <a href="/cv.pdf.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/Delloiteresume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold shadow-md hover:bg-yellow-500 cursor-pointer">
             Download CV
           </button>
