@@ -48,7 +48,7 @@ management, and tested APIs using Postman. (This project is currently not live) 
     image: "/minor.png",
     tech: ["React", "CSS", "Node.js", "Express.js", "MongoDB", "Stripe"],
     github: "https://github.com/Mithlesh341/Global-review-system-master",
-
+    demo: "https://global-review-frontend.vercel.app"
   },  
    {
     id: 4,
